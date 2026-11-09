@@ -137,11 +137,15 @@ GEM
     nio4r (2.7.5)
     nokogiri (1.19.7-aarch64-linux-gnu)
       racc (~> 1.4)
+    nokogiri (1.19.7-x86_64-darwin)
+      racc (~> 1.4)
     pg (1.7.0-aarch64-linux)
+    pg (1.7.0-x86_64-darwin)
     pp (0.6.4)
       prettyprint
     prettyprint (0.2.1)
     prism (2.1.0-aarch64-linux-gnu)
+    prism (2.1.0-x86_64-darwin)
     puma (8.0.2)
       nio4r (~> 2.0)
     racc (1.8.1)
@@ -228,6 +232,7 @@ GEM
 
 PLATFORMS
   aarch64-linux-gnu
+  x86_64-darwin-21
 
 DEPENDENCIES
   bootsnap
